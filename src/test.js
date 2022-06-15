@@ -1,4 +1,12 @@
 
+
+
+
+
+
+
+
+
 const students = [
     { id: 1, status: "BS", name: "Islom Numanov" },
     { id: 2, status: "BS", name: "Ergashev Durbek" },
