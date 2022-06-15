@@ -10,6 +10,8 @@ const students = [
     { id: 8, status: "BS", name: "Musurmonkulov Oybek" },
     { id: 9, status: "IT", name: "Mahmudov Asadbek" },
   ];
+
+                            // Create malumot qushish
 // let i;
 // function addStudent(status,name){
 //     for(i = 0; i <students.length + 1; i++){
@@ -25,8 +27,8 @@ const students = [
 // addStudent("IT","Eshmatov Hosmat") 
 
 
-
-// name sort 
+                    
+// name da sort lash
 // result = students.sort(function (a, b) {
 //     let x = a.name.toLowerCase();
 //     let y = b.name.toLowerCase();
@@ -43,8 +45,8 @@ const students = [
 
 
 // tepadagi code ni qisqartrilgan formati
-result = students.sort((a, b) => a.status.toLowerCase() < b.status.toLowerCase() ? -1 : 1);
-console.log(result);
+// result = students.sort((a, b) => a.status.toLowerCase() < b.status.toLowerCase() ? -1 : 1);
+// console.log(result);
 
 
 // id orqali sort
@@ -57,3 +59,21 @@ console.log(result);
 // // qisqartirilgan id orqali sort function
 // result = cars.sort((a, b) => a.year - b.year);
 // console.log(result);
+
+
+
+// Updata
+// function chang(i,s,n){
+//     students.forEach((v)=>{
+//         if(v.id === i ){
+//             if(s === "status"){
+//                 v.status = n
+//             }else if(s === "name"){
+//                 v.name = n
+//             }
+//         }
+//     })
+// }
+
+// chang(2,"name","Toshmatov Eshmat ")
+// console.log(students);
