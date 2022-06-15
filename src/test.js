@@ -10,23 +10,50 @@ const students = [
     { id: 8, status: "BS", name: "Musurmonkulov Oybek" },
     { id: 9, status: "IT", name: "Mahmudov Asadbek" },
   ];
-  let i;
-function addGet(status,name){
-    for(i = 0; i <students.length + 1; i++){
+// let i;
+// function addStudent(status,name){
+//     for(i = 0; i <students.length + 1; i++){
 
-    }
-        students.push({
-            id: i,
-            status,
-            name
-        })   
-}
-addGet("husan","husan")
-addGet("husan","husan")
-addGet("husan","husan")
-addGet("husan","husan")
-console.log(students);
-// addGet("husan","husan")
-// students.forEach((v,i)=>{   
-//     console.log(v.id);
-// })
+//     }
+//         students.push({
+//             id: i,
+//             status,
+//             name
+//         })   
+// }
+// addStudent("BS","Hayitaliev Oybek")
+// addStudent("IT","Eshmatov Hosmat") 
+
+
+
+// name sort 
+// result = students.sort(function (a, b) {
+//     let x = a.name.toLowerCase();
+//     let y = b.name.toLowerCase();
+//     if (x < y) {
+//         return -1;
+//     }
+//     if (x > y) {
+//         return 1;
+//     }
+//     return 0;
+// });
+ 
+// console.log(result);
+
+
+// tepadagi code ni qisqartrilgan formati
+result = students.sort((a, b) => a.status.toLowerCase() < b.status.toLowerCase() ? -1 : 1);
+console.log(result);
+
+
+// id orqali sort
+// result = students.sort(function (a, b) {
+//     return a.id - b.id;
+// });
+ 
+// console.log(result);
+
+// // qisqartirilgan id orqali sort function
+// result = cars.sort((a, b) => a.year - b.year);
+// console.log(result);
