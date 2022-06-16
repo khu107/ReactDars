@@ -1,12 +1,4 @@
 
-
-
-
-
-
-
-
-
 const students = [
     { id: 1, status: "BS", name: "Islom Numanov" },
     { id: 2, status: "BS", name: "Ergashev Durbek" },
@@ -20,20 +12,20 @@ const students = [
   ];
 
                             // Create malumot qushish
-// let i;
-// function addStudent(status,name){
-//     for(i = 0; i <students.length + 1; i++){
+let i;
+function addStudent(status,name){
+    for(i = 0; i <students.length + 1; i++){
 
-//     }
-//         students.push({
-//             id: i,
-//             status,
-//             name
-//         })   
-// }
-// addStudent("BS","Hayitaliev Oybek")
-// addStudent("IT","Eshmatov Hosmat") 
-
+    }
+        students.push({
+            id: i,
+            status,
+            name
+        })   
+}
+addStudent("BS","Hayitaliev Oybek")
+addStudent("IT","Eshmatov Hosmat") 
+console.log(students);
 
                     
 // name da sort lash
@@ -64,8 +56,8 @@ const students = [
  
 // console.log(result);
 
-// // qisqartirilgan id orqali sort function
-// result = cars.sort((a, b) => a.year - b.year);
+// qisqartirilgan id orqali sort function
+// result = cars.sort((a, b) => a.id - b.id);
 // console.log(result);
 
 
@@ -85,3 +77,11 @@ const students = [
 
 // chang(2,"name","Toshmatov Eshmat ")
 // console.log(students);
+
+
+// Delete funksiyasi splice slice filter delete
+// function delStudent(del){
+//       students.splice(del-1,1)
+// }
+// delStudent(8)
+// console.log(students)
