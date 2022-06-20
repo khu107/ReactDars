@@ -13,5 +13,8 @@ root.render( // render ekranga chiqarish degani
     <Student/>
     
     
+    {/* <Student  age = {15} surname="toshmat"/> */}
+    
+    
   </React.StrictMode>
 );

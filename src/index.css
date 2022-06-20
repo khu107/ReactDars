@@ -3,5 +3,12 @@
     width: 131px;
     border: 1px solid black;
     color: blue;
+    height: 36px;
+    align-items: center;
+    justify-content: center;
     background-color: white;
+}
+
+.container:active{
+    transform: scale(0.97);
 }

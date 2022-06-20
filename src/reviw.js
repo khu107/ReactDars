@@ -12,3 +12,6 @@
 
 // 2 - dars
 // props - proporty suzini qisqartmasi
+// state - ekrandagi malumotni uzgarishini kuzatib borish uchun kerak
+// constructor class super
+// events - event handler 
