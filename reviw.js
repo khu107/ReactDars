@@ -11,7 +11,10 @@
 
 
 // 2 - dars
-// props - proporty suzini qisqartmasi
-// state - ekrandagi malumotni uzgarishini kuzatib borish uchun kerak
+// props - proporty suzini qisqartmasi bulib Parent danchild ga malumot junatish uchun ishlatiladi.
+// state - ekrandagi malumotni uzgarishini kuzatib borish uchun kerak (rerender qilish hususiyatiga ega bulgan method) bor setState() - class componontini qayta yurgizib berish hususiyati bor
 // constructor class super
 // events - event handler 
+
+// 3- dars
+   
