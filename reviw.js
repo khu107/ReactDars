@@ -18,3 +18,14 @@
 
 // 3- dars
    
+
+
+// 4 - conditional rendering
+// inline rendering
+
+// 5 - dars
+// styled-components
+// generetic
+// props
+// function
+// css

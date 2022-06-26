@@ -10,6 +10,7 @@ root.render( // render ekranga chiqarish degani
   // React.StrictMode birxil eski kutubxonalar bulsa consolda ogohlantiradi 
   <React.StrictMode> 
   
+    <Student/> 
     <Student/>
     
     
