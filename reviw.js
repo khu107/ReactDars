@@ -29,3 +29,9 @@
 // props
 // function
 // css
+
+
+// dars
+// prop drilling
+// state management
+// render

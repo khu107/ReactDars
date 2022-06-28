@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import Student from './students'
+import Root from './root'
 
 
 
@@ -9,13 +9,8 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render( // render ekranga chiqarish degani
   // React.StrictMode birxil eski kutubxonalar bulsa consolda ogohlantiradi 
   <React.StrictMode> 
-  
-    <Student/> 
-    <Student/>
-    
-    
-    {/* <Student  age = {15} surname="toshmat"/> */}
-    
+
+      <Root/>
     
   </React.StrictMode>
 );
