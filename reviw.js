@@ -29,6 +29,11 @@
 // props
 // function
 // css
+// inherit
+
+//hooks
+// state
+// useEffect
 
 
 // dars

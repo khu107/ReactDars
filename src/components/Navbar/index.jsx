@@ -1,21 +1,16 @@
-import React from "react";
+import { useState } from "react"
 
-
-class ClassComp extends React.Component{
-    constructor(props){
-        super(props);
-        this.state = {
-            count: 0,
-        }
-    }
-    render(){
-        return(
-            <div>
-                <h1>Class Compononts</h1>
-            </div>
-        )
-    }
+const HooksComp = ()=>{
+    const [count,setCount] = useState(0); // useState ardoim array qaytaradi
+    console.log(count);
+    return(
+        <div>
+            <h1>Hooks Componont</h1>
+            <h1>Count: {count}</h1>
+            <button onClick={()=>setCount(count + 1)}>+</button>
+            <button onClick={()=>setCount(count - 1)}>-</button>
+        </div>
+    )
 }
 
-
-export default ClassComp
+export default HooksComp

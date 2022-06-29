@@ -7,6 +7,7 @@ export default class Root extends Component {
         return(
             <div style={{display: 'flex'}}>
             <Students/>
+
             <Navbar/>
             </div>
         )

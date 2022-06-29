@@ -1,13 +1,23 @@
-import {useState} from "react"
+import React from "react";
 
-const HooksComp = ()=>{
-    const data = useState(0)
-    console.log(data);
-    return(
-        <div>
-            <h1>Hooks Compononts</h1>
-        </div>
-    )
+class ClassComp extends React.Component{
+    constructor(props){
+        super(props);
+        this.state = {
+            count: 0,
+        }
+    }
+    render(){
+        const {count} = this.state
+        return(
+            <div>
+                <h1>ClassComponont</h1>
+                <h1>Count : {count}</h1>
+                <button onClick={()=>this.setState( {count: count +1})}>+</button>
+                <button onClick={()=>this.setState( {count: count -1})}>-</button>
+            </div>
+        )
+    }
 }
 
-export default HooksComp
+export default ClassComp
