@@ -5,14 +5,17 @@ const HooksComp = ()=>{
     console.log(count);
 
     const minus = ()=>{
-        count < 1 ? setCount(count) : setCount(count - 1)   
+        if(count > 0){
+            setCount(count - 1)
+        }
+        // count < 1 ? setCount(count) : setCount(count - 1)   
     }
     return(
         <div>
             <h1>Hooks Componont</h1>
             <h1>Count: {count}</h1>
             <button onClick={()=>setCount(count + 1)}>+</button>
-            <button onClick={minus}>-</button>
+            <button className="minus" onClick={minus}>-</button>
         </div>
     )
 }
