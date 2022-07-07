@@ -1,24 +1,18 @@
-import { useState,useEffect } from "react"
+import React from 'react'
+import { Container } from './style'
+import { useContext } from 'react'
+import { StudentContext } from '../../context'
 
-const HooksComp = ()=>{
-
-    const [count, setCount] = useState(0);
-    
-    useEffect(()=>{
-        console.log('case 1');
-    })
-
-
-    return(
-        <div>
-
-            <h1>Hooks</h1>
-            <h1>Count: {count}</h1>
-            <button onClick={()=>setCount(count + 1)}>+</button>
-            <button onClick={()=>setCount(count - 1)}>-</button>
-
-        </div>
-    )
+const  Navbar = ()=> {
+  const [data] = useContext(StudentContext);
+  // console.log(info);
+  return (
+    <Container>
+        <h1>Home</h1>
+        <h1>Contact</h1>
+        <h1>About</h1>
+        <h1>Students {data.length}</h1>
+    </Container>
+  )
 }
-
-export default HooksComp
+export default Navbar;

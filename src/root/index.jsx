@@ -5,10 +5,9 @@ import Students from "../components/Students";
 export default class Root extends Component {
     render(){
         return(
-            <div style={{display: 'flex'}}>
-            {/* <Students/> */}
-
+            <div>
             <Navbar/>
+            <Students/>
             </div>
         )
     }

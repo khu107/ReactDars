@@ -1,24 +1,21 @@
-import React from "react";
+import React, {useContext}from 'react'
+import { StudentContext } from '../../context'
 
-class ClassComp extends React.Component{
-    constructor(props){
-        super(props);
-        this.state = {
-            count: 2,
-            data: []
+export default function Student() {
+
+  const [data,setData] = useContext(StudentContext);
+  return (
+    <div>
+        <h1>Student : {data.length} found</h1>
+        {
+          data.map((v)=>{
+            return <h1>{v.name} <button onClick={()=>{
+              let res = data.filter(vl=>v.id !== vl.id);
+              setData(res)
+            }}>delete</button></h1>
+          })
         }
-    }
-    render(){
-        const {count} = this.state
-        return(
-            <div>
-                <h1>ClassComponont</h1>
-                <h1>Count : {count}</h1>
-                <button onClick={()=>this.setState( {count: count +1})}>+</button>
-                <button onClick={()=>this.setState( {count: count -1})}>-</button>
-            </div>
-        )
-    }
+    </div>
+  )
 }
 
-export default ClassComp

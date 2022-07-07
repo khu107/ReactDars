@@ -40,3 +40,7 @@
 // prop drilling
 // state management
 // render
+
+// Context
+// 1. Create componont
+// 2. createContext
