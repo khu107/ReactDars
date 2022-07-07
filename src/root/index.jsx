@@ -6,7 +6,7 @@ export default class Root extends Component {
     render(){
         return(
             <div style={{display: 'flex'}}>
-            <Students/>
+            {/* <Students/> */}
 
             <Navbar/>
             </div>

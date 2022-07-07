@@ -33,7 +33,7 @@
 
 //hooks
 // state
-// useEffect
+// useEffect - proect ni optimal qilish uchun ishlatiladi ishlash tezligini oshiradi, keraksiz bulgan code ni yuib ketishi oladi
 
 
 // dars
