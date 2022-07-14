@@ -9,16 +9,13 @@
 // export import
 // export vs export default
 
-
 // 2 - dars
 // props - proporty suzini qisqartmasi bulib Parent danchild ga malumot junatish uchun ishlatiladi.
 // state - ekrandagi malumotni uzgarishini kuzatib borish uchun kerak (rerender qilish hususiyatiga ega bulgan method) bor setState() - class componontini qayta yurgizib berish hususiyati bor
 // constructor class super
-// events - event handler 
+// events - event handler
 
 // 3- dars
-   
-
 
 // 4 - conditional rendering
 // inline rendering
@@ -35,7 +32,6 @@
 // state
 // useEffect - proect ni optimal qilish uchun ishlatiladi ishlash tezligini oshiradi, keraksiz bulgan code ni yuib ketishi oladi
 
-
 // dars
 // prop drilling
 // state management
@@ -44,3 +40,12 @@
 // Context
 // 1. Create componont
 // 2. createContext
+
+// react-router-dom
+// BrowserRouter -
+// Route - qaysi url qaysi component 4iqiwiga iwlatiladi
+// Link - NavLink - <a/> NavLink da activStyle bor
+// Switch
+// useHistory, useLocation
+// useParams
+// Redirect

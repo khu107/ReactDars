@@ -1,3 +1,5 @@
+const sd = 'sds'
+
 
 const students = [
     { id: 1, status: "BS", name: "Islom Numanov" },
